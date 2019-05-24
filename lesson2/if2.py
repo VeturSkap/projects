@@ -3,11 +3,10 @@ def strings(s1, s2):
         return 0
     if s1 == s2:
         return 1
-    if s1 != s2:
-        if len(s1) > len(s2):
-            return 2
-        if s2 == 'learn':
-            return 3
+    if len(s1) > len(s2):
+        return 2
+    if s2 == 'learn':
+        return 3
 def main():
     x = '3243'
     y = 'cdkjdskjdsjds'
