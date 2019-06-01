@@ -1,5 +1,5 @@
 def strings(s1, s2):
-    if isinstance(s1, str) == False or isinstance(s2, str) == False:
+    if not isinstance(s1, str)  or not isinstance(s2, str):
         return 0
     if s1 == s2:
         return 1
