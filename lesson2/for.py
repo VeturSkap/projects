@@ -5,8 +5,9 @@ for v1 in v:
 
 
 str1 = input()
-for i in range(0, len(str1)):
-    print(str1[i])
+'''for i in range(0, len(str1)):'''
+for symbol in str1: 
+    print(symbol)
 
 
 class_scores = [{'school_class': '4a', 'scores': [3,4,4,5,7]}, {'school_class': '4b', 'scores': [3,4,4,5,2, 6]}]
